@@ -5,31 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Design 1 Reference Site</title>
+    <!---->
 </head>
+<!---->
 <body>
+    <!---->
     <header>
+        <!---->
         <h1>Reference Website</h1>
         
-        <!-- -->
         <nav>
+            <!---->
             <ul>
             <li><a href="#naming-coventions">Naming Conventions</a></li>
             <li><a href="#commit-messages">Commit messages</a></li>
             <li><a href="#html-elements">HTML Elements</a></li>
+            <!--<a href=""> link text </a> the opening <tells where the link should start and the closing </a> indicates where the link ends. To create a hyperlink, you should use the <a> tag and href attribute, the value of which is the URL, or location, where the link is pointing to.-->
             </ul>
         </nav>
     </header>  
       
     <main>
+        <!---->
         <section id="naming-coventions">
           <h2>Naming Conventions</h2>
           
           <h3>Rules for naming files and paths</h3>
           <ul>
-            <li>all lowercase - different operating systems treat capitilization differently (Good Example: ten-tree-logo.svg Bad Example: Today-in-History.html)</li>
-            <li>No spaces - URLs cannot have spaces in them (Good Example: chocolate-cake-recipe.html Bad Example: chocolate cake recipe.html)</li>
+            <li><b>all lowercase</b> - different operating systems treat capitilization differently (Good Example: ten-tree-logo.svg Bad Example: Today-in-History.html)</li>
+            <li><b>No spaces</b> - URLs cannot have spaces in them (Good Example: chocolate-cake-recipe.html Bad Example: chocolate cake recipe.html)</li>
           <!--it will display as "chocolate%20cake%20recipe.html"-->
-            <li>Only letters, numbers, and dashes (-) - URLs use a limited set of characters 
+            <li><b>Only letters, numbers, and dashes (-) </b>- URLs use a limited set of characters 
             <!--dashes are word seperators, while underscores are word connectors--> 
             (Good Example: west-coast-art-2021.html Bad Example: red_porche.jpg</li>
           <!--search engine will index as "redporche" vs "red" "porche"-->
@@ -54,16 +60,40 @@
           <h3>Headings</h3>
           <p>Heading tags are used to mark headings according to their importance. </p>
           <!--Syntax - when writing HTML, the tags used to define the purpose of the text follow a specific syntax. There is the open tag (<h1>), the close tag (</h1), the tag name (h1), the element content (I am the heading), and the element (<h1> I am the heading </h1>)-->
-          <h1>Heading 1</h1>
-          <p>This can only be used once on a web page. It is also the most important.</p>
-          <!--a paragraph defines a paragraph of text. It is a block-level element and always starts on a new line. -->
-          <h2>Heading 2</h2>
-          <h3>Heading 3</h3>
-          <h4>Heading 4</h4>
-          <h5>Heading 5</h5>
-          <h6>Heading 6</h6>
-          <p>This is the least important and smallest heading.</p>
-          
+          <ol>
+            <li><h1>Heading 1</h1></li>li>
+            <p>This can only be used once on a web page. It is also the most important.</p>
+            <!--a paragraph defines a paragraph of text. It is a block-level element and always starts on a new line. -->
+            <li><h2>Heading 2</h2></li>
+            <li><h3>Heading 3</h3></li>
+            <li><h4>Heading 4</h4></li>
+            <li><h5>Heading 5</h5></li>
+            <li><h6>Heading 6</h6></li>
+            <p>This is the least important and smallest heading.</p>
+        </ol>
+          <h4>Quotes and Citations</h4>
+          <ul>
+            <!--unordered list-->
+            <li>q - used to mark up quotes embedded in other elements like a paragraph</li>
+            <!--list item-->
+            <blockquote>
+            <li>"example of blockquote and cite" </li>
+            <cite>- maria shalla</cite>
+            <!--blockquote - for large stand alone quotes. Cite - marking the source of the quote-->
+            </blockquote>
+          </ul>
+        <h4>Phrasing Elements</h4>
+          <ul>
+            <li><em>Emphasis example</em></li>
+            <li><strong>strong example</strong></li>
+            <!--lots of emphasis, strong importance or urgency-->
+            <li><i>example of i</i></li>
+            <!--another language, technical term, title. Visual only italics-->
+            <li><b>example of bold</b></li>
+            <!--a keyword-->
+
+            
+          </ul>
         </section>
       </main>
 </body>

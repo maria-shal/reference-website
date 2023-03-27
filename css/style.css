@@ -1,0 +1,22 @@
+html {
+    font-family: "Roboto", sans sans-serif;
+    color: black;
+    line-height: 1.4;
+    font-size: 110%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+    padding: 0 2em;
+}
+
+h1,h2,h3 {
+    font-family: sans-serif;
+    margin-bottom: 0;
+}
+
+img {
+    width: 50%;
+    padding: .5em;
+}

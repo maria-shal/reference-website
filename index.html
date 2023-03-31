@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Design 1 Reference Site</title>
     <link rel="stylesheet" href="css/style.css">
+    <!--An example of how to link my css style sheet to my index.html-->
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<!--here is an example of how to add a google font to your html-->
 </head>
 <body>
   
@@ -51,14 +53,14 @@
         
         <section id="commit-messages">
           <h2>Commit messages</h2>
-            <ul>
+            <ol>
                 <li>minimum 3 words and 10 characters</li>
                 <li>Proper spelling and grammer</li>
                 <li>Capital starting letter, no period</li>
                 <li>Must start with an imperative verb: Create, Fix, Add, Solve, etc</li>
                 <!--Examples: This commit will Fix my spelling error-->
                 <li>Pretend every commit starts with the phrase: This commit will...</li>
-            </ul>
+            </ol>
       </section>
 
         <section id="html-elements">
@@ -120,11 +122,56 @@
         <section id="images">
           <h2>Images</h2>
             <p>Here is an assignment I did for concept sketching class!</P>
-          <img src="images/hand-drawings.jpeg"/>
+          <figure>
+            <img src="images/hand-drawings.jpeg"/>
+            <figcaption>Hand drawing</figcaption>
+          </figure>
         </section>
 
         <!--used to wrap around related pieces of content. Usually each section has its own heading-->
+
+        <section>
+          <div class="wrapper">
+          <p> Here is an example of a detailed list from the best chocolate cake recipe {Ever} </p>
+          </div>
+          <h2>Nutritional Information</h2>
+<dl>  
+  <dt>Calories:</dt> 
+  <dd>124kcal</dd> 
+  <dt>Carbohydrates:</dt> 
+  <dd>27g</dd> 
+  <dt>Protein:</dt> 
+  <dd>3g</dd> 
+  <dt>Fat:</dt> 
+  <dd>1g</dd> 
+  <dt>Saturated Fat:</dt> 
+  <dd>1g</d> 
+<dt>Cholesterol:</dt> 
+<dd>15mg</dd> 
+<dt>Sodium:</dt> 
+<dd>178mg</dd> 
+<dt>Potassium:</dt> 
+  <dd>114mg</dd>  
+  <dt>Fiber:</dt> 
+  <dd>1g</dd>  
+  <dt>Sugar:</dt> 
+  <dd>17g</dd>  
+  <dt>Vitamin A:</dt> 
+  <dd>229IU</dd>  
+  <dt>Vitamin C:</dt>
+  <dd>1mg</dd>  
+  <dt>Calcium:</dt> 
+  <dd>34mg</dd>  
+  <dt>Iron:</dt> 
+  <dd>1mg</dd> 
+</dl>
+          </dl>
+          <!--dl can have more than one dd, but just one dt.-->
+          </section>
+
+
       </main>
+      
 
 </body>
 </html>

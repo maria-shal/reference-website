@@ -7,8 +7,9 @@ html {
 }
 
 body {
-    background-color: lightgray;
-    padding: 0 2em;
+    background-color: lightsteelblue;
+    color: black;
+    padding: 0 2em
 }
 
 h1,h2,h3 {
@@ -19,4 +20,45 @@ h1,h2,h3 {
 img {
     width: 50%;
     padding: .5em;
+}
+.wrapper {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+nav {
+    text-align: left;
+}
+
+nav ul li {
+    display: inline;
+}
+nav a:link {
+    padding-top: .5em;
+    padding-right: .75em;
+    padding-bottom: .5em;
+    padding-left: .75em;
+    border-radius: 8px;
+}
+
+nav a:link, ul a:visited {
+    background-color: lightcoral;
+    color: white;
+    border: 2px solid 8px;
+    text-decoration: none; 
+}
+
+nav a:hover, ul a:focus {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+footer {
+    background-color: rgba(0,0,0,.25);
+  text-shadow: .5px 1px rgba(0,0,0,.8);
 }
